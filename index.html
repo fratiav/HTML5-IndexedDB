@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 - INDEXED DB</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header id="cabecera">
+        <hr/>
+        <h1>INDEXED DB</h1>
+        <hr/>
+    </header>
+    <aside id="margenIzquierdo">
+        <img id="procedimientoDB" src="assets/IndexedDB.png" width="400">
+    </aside>
+    <section id="margenDerecho">
+        <h3>FILMOTECA</h3>
+        <form id="formulario">
+            <fieldset>
+                <legend>DATOS A RELLENAR</legend>
+                <label for="clave">Clave: </label>
+                <input type="text" id="clave" name="clave" autocomplete="off">
+                <label for="titulo">Titulo: </label>
+                <input type="text" id="titulo" name="titulo" autocomplete="off">
+                <label for="fecha">Fecha: </label>
+                <input type="date" id="fecha" name="fecha" autocomplete="off"><br>
+                <input type="button" id="almacenar" name="almacenar" value="Almacenar información">
+            </fieldset>
+        </form>
+    </section>
+    <section id="zonaDatos">
+        <h3>DATOS ALMACENADOS</h3>
+    </section>
+</body>
+</html>

@@ -1,0 +1,79 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+
+#cabecera{
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: coral;
+}
+
+#margenIzquierdo{
+    width: 30%;
+    float: left;
+    border: 3px solid coral;
+    margin-left: 10px;
+}
+
+#margenDerecho{
+    width: 65%;
+    float: right;
+    border: 3px solid coral;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    color: white;
+}
+
+#margenDerecho h3, #zonaDatos h3{
+    width: 50%;
+    background-color: rgb(90, 65, 32);
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+}
+
+#zonaDatos{
+    text-align: center;
+}
+
+#formulario{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgb(56, 49, 36);
+}
+
+#formulario input{
+    width: 90%;
+    display: block;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+#formulario input:focus{
+    background-color: skyblue;
+}
+
+#formulario input[type="button"]{
+    float: right;
+    width: 60%;
+    background-color: coral;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+#zonaDatos{
+    width: 65%;
+    float: right;
+    border: 3px solid coral;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(223, 90, 67, 0.692);
+    font-weight: bold;
+}
